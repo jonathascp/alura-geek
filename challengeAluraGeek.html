@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="styles/media-query.css">
+    <script src="script.js" type="module" defer></script>
+    <title>Alura Geek</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <img src="imagens/Logo.svg" alt="logo" id="logo">
+    </header>
+
+    <main id="principal">
+        <section id="secao_produtos">
+            <h1>meus produtos:</h1>
+            <div id="container_produtos">
+            </div>
+
+        </section>
+        <section id="secao_formulario">
+            <h1>adicionar produto:</h1>
+            <form id="formulario">
+                <input type="text" name="nome" id="input_nome" required placeholder="nome...">
+                <input type="number" name="valor" id="input_valor" required placeholder="valor...">
+                <input type="text" name="imagem" id="input_imagem" required placeholder="imagem...">
+                <div id="formulario_botoes">
+                    <button id="formulario_enviar" type="submit">Salvar</button>
+                    <button id="formulario_limpar">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer id="rodape">
+        <img src="imagens/Logo.svg" alt="logo">
+        <p>desenvolvido por jonathas dos anjos</h4>
+        <p>alura latam 2024</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Press Start 2P";
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+#logo {
+    width: 100%;
+    height: 96px;
+    background-color: #5300C8;
+}
+
+#principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#secao_produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+}
+
+#container_produtos {
+    max-width: 530px;
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    box-shadow: -12px 10px 5.8px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.card {
+    width: 150px;
+    padding: 5px;
+    border: 4px solid black;
+    border-radius: 10px;
+    background-color: #5300C8;
+    box-shadow: -5px 7px 3px rgba(0, 0, 0, 0.25);
+}
+
+.card > img {
+    width: 100%;
+}
+
+#card_nome {
+    font-family:  "IBM Plex Mono";
+    color: #fff;
+    font-size: 1.1em;
+}
+
+#card_preco {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#card_preco > p {
+    font-family:  "IBM Plex Mono";
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.card_excluir {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.fa-trash-can {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+#secao_formulario {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+#secao_formulario > h1 {
+    width: 400px;
+    text-align: center;
+}
+
+#formulario {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 390px;
+    margin: 10px;
+    padding: 20px;
+    border: 4px solid #03318c;
+    border-radius: 30px;
+    color: #03318c;
+}
+
+input::placeholder {
+    color: #03318c;
+    font-family: "IBM Plex Mono";
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+
+#formulario_botoes {
+    width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: 4px solid #03318c;
+    border-radius: 15px;
+    color: #fff;
+    font-family: "IBM Plex Mono";
+    background-color: #03318c;
+    outline: none;
+    font-size: 1.2em;
+    width: 180px;
+    cursor: pointer;
+}
+
+#formulario_limpar {
+    border: 4px solid #03318c;
+    outline: none;
+    color: #03318c;
+    font-size: 1.2em;
+    width: 180px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-family: "IBM Plex Mono";
+    cursor: pointer;
+}
+
+#rodape {
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5300C8;
+    color: #fff;
+    box-shadow: 0px -10px 9.5px rgba(0, 0, 0, 0.247);
+}
+
+#rodape p {
+    font-family: "IBM Plex Mono";
+    text-transform: uppercase;
+}

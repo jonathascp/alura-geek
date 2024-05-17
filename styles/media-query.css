@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+    #principal {
+        flex-direction: column-reverse;
+    }
+
+    #secao_produtos {
+        margin: 0;
+        height: 300px;
+    }
+
+    #container_produtos {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        overflow: scroll;
+        width: 380px;
+        flex-wrap: nowrap;
+        margin: 10px 20px;
+        gap: 10px;
+        padding: 0px;
+    }
+
+    .card {
+        width: 180px;
+    }
+
+
+    #secao_formulario {
+        margin: 10px 0px;
+        padding: 0px; 
+    }
+
+    #formulario {
+        max-width: 412px;
+    }
+
+    input {
+        width: 340px;
+    }
+
+    #formulario_botoes {
+        width: 330px;
+    }
+
+    button[type="submit"] , #formulario_limpar {
+        width: 130px;
+    }
+}

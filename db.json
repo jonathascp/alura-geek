@@ -1,0 +1,41 @@
+{
+  "produtos": [
+    {
+      "id": "8dcf",
+      "imagem": "imagens/unsplash_6FDXGY9J6y4.svg",
+      "nome": "Jonathas",
+      "valor": "213213"
+    },
+    {
+      "id": "8dcf",
+      "imagem": "imagens/unsplash_6FDXGY9J6y4.svg",
+      "nome": "Jonathas",
+      "valor": "213213"
+    }
+    ,
+    {
+      "id": "8dcf",
+      "imagem": "imagens/unsplash_6FDXGY9J6y4.svg",
+      "nome": "Jonathas",
+      "valor": "213213"
+    },
+    {
+      "id": "8dcf",
+      "imagem": "imagens/unsplash_6FDXGY9J6y4.svg",
+      "nome": "Jonathas",
+      "valor": "213213"
+    },
+    {
+      "id": "8dcf",
+      "imagem": "imagens/unsplash_6FDXGY9J6y4.svg",
+      "nome": "Jonathas",
+      "valor": "213213"
+    },
+    {
+      "id": "8dcf",
+      "imagem": "imagens/unsplash_6FDXGY9J6y4.svg",
+      "nome": "Jonathas",
+      "valor": "213213"
+    }
+  ]
+}
